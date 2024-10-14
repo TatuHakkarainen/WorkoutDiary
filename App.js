@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { BottomNavigation, PaperProvider } from 'react-native-paper';
 import { useState } from 'react';
-import { WorkoutProvider } from './components/WorkoutContext';
+import { WorkoutProvider } from './context/WorkoutContext';
 import AddWorkoutPage from './components/AddWorkoutPage';
 import WorkoutListPage from './components/WorkoutListPage';
 import SettingsPage from './components/SettingsPage';

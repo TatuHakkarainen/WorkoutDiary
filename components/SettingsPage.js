@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { SafeAreaView, View } from 'react-native';
 import { RadioButton, Text, useTheme } from 'react-native-paper';
-import WorkoutContext from './WorkoutContext';
+import WorkoutContext from '../context/WorkoutContext';
 import { styles } from '../styles/Styles'; // Import styles
 
 export default function SettingsPage() {

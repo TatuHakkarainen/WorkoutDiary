@@ -1,7 +1,7 @@
 import { SafeAreaView, Alert, View } from 'react-native';
 import { Button, Text, TextInput, useTheme } from 'react-native-paper';
 import { useContext, useState } from 'react';
-import WorkoutContext from './WorkoutContext';
+import WorkoutContext from '../context/WorkoutContext';
 import { DatePickerModal } from 'react-native-paper-dates';
 import { Picker } from '@react-native-picker/picker';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'; // Import vector icons

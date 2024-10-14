@@ -1,7 +1,7 @@
 import { SafeAreaView, FlatList } from 'react-native';
 import { Card, Text, useTheme } from 'react-native-paper';
 import { useContext } from 'react';
-import WorkoutContext from './WorkoutContext';
+import WorkoutContext from '../context/WorkoutContext';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'; // Import icons
 import { styles } from '../styles/Styles';
 
